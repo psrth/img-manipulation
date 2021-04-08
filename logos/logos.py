@@ -30,15 +30,3 @@ for f in os.listdir('/Users/Parth/development/github/img-manipulation/logos'):
 
         # save image
         new_im.save('/Users/Parth/development/github/img-manipulation/logos/logo/{}.png'.format(fn))
-        
-        
-
-
-
-
-# i = Image.open(f)
-#         fn, fext = os.path.splitext(f)
-
-#         i.thumbnail(size_300)
-#         img = ImageOps.expand(i, border=25,fill='white')
-#         img.save('/Users/Parth/development/github/img-manipulation/logos/logo/{}.png'.format(fn))
